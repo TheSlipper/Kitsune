@@ -1,0 +1,15 @@
+[Unit]
+Description=Kitsune discord bot. This service file is made for user "noir". Replace the name with ur username.
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=60
+User=noir
+WorkingDirectory=/home/noir/go/src/github.com/TheSlipper/Kitsune/cmd/Kitsune/
+ExecStart=/home/noir/go/bin/Kitsune -settings-path="/home/noir/.local/share/Kitsune/settings.json" -decryption-key=3175986EE810
+
+[Install]
+WantedBy=multi-user.target
