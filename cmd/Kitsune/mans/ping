@@ -1,0 +1,8 @@
+**[ Kitsune 'ping' help page ]**
+
+**Syntax:** *`ping`*
+
+**Description:** Pings the bot with a single message and makes the bot respond with a "pong" message. Used to check if the bot is online or overloaded *(if it takes a while for the bot to respond it means that it is overloaded and it doesn't respond it might mean it's down)*.
+
+*Made by: <@240150336294223872>
+For the list of all the commands and more visit: <https://github.com/TheSlipper/Kitsune>*

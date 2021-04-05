@@ -1,0 +1,13 @@
+**[ Kitsune 'art' help page ]**
+
+**Syntax:** *`art [-gallery gallery_name] [-tags "tag1 tag2"] [-amount 5] [-random] [-uncompressed]`*
+
+**Description:** Fetches art from various websites *(danbooru, gelbooru, konachan, rule34, safebooru, yandere)* with the specified tags.
+
+**Examples:**
+    Fetching five newest arts with tags "plugsuit" from danbooru: `art -gallery danbooru -tags "plugsuit" -amount 5`
+
+    Fetching five random arts with tags "plugsuit" from gelbooru: `art -gallery danbooru -random -tags "plugsuit shikinami_asuka_langley" -amount 5`
+
+*Made by: <@240150336294223872>
+For the list of all the commands and more visit: <https://github.com/TheSlipper/Kitsune>*

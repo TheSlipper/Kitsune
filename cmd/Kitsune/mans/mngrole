@@ -1,0 +1,22 @@
+**[ Kitsune 'mngrole' help page ]**
+
+**Syntax:** 
+*`mngrole [-create-role | -delete-role] `__`roles`__
+`mngrole -set-color [ `__`hex_rgb_val`__` | `__`rgb_func_val`__`] -target-role `__`targeted_role`__
+`mngrole [-add-permission | -remove-permission] `__`permission_string`__` -target-role `__`targeted_role`__*
+
+**Description:** Executes a given action on a role/group of roles with a specific name/s. The available types of actions are - `create-role`, `delete-role`, `set-color`, `add-permission` and `remove-permission`. Each of the aforementioned actions may have its own unique action data which are described above.
+
+**Examples:**
+  Creating a 'NewTest' role for a server: `mngrole -create-role "NewTest"`
+
+  Removing a 'NewTest' role from a server: `mngrole -delete-role "NewTest"`
+
+  Setting the 'NewTest' role's color: `mngrole -set-color "#1A5723" -target-role "NewTest"` or `mngrole -set-color "rgb(26, 87, 35)" -target-role "NewTest"`
+
+**Protips:**
+  1. To assign a role to a user you edit user's data therefore you must use `mngusr` for that specific purpose.
+  2. If you have no clue what number/value you should put for your desired color in the `set-color` action field you can use the *google's rgb color picker* for finding it: <https://www.google.com/search?q=color+picker>
+
+  *Made by: <@240150336294223872>
+  For the list of all the commands and more visit: <https://github.com/TheSlipper/Kitsune>*

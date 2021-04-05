@@ -1,0 +1,14 @@
+**[ Kitsune 'alias' help page ]**
+
+**Syntax:** *`ytplay --url "https://www.youtube.com/watch?v=14cgH6MiYf8" --target-channel "channel name"`*
+
+**Description:** Plays audio from the specified youtube video in the specified channel.
+
+**Examples:**
+    Playing a song: `ytplay -url "https://youtu.be/Vna1ZVCp4_c" -target-channel "testing"`
+
+**Protip:**
+    You can stop the playback of the given song by using the kill command. Just get the ID of the scheduled audio playback event using the `list -vc-events` command and then kill the event like this `kill -eid 2`.
+
+*Made by: <@240150336294223872>
+For the list of all the commands and more visit: <https://github.com/TheSlipper/Kitsune>*

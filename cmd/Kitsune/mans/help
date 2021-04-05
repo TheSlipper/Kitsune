@@ -1,0 +1,8 @@
+**[ Kitsune 'help' help page ]**;
+
+**Syntax:** *`help` `help [command_name]`*
+
+**Description:** prints out a manual/help page for a given command which contains information on all of the command's flags and example usages. If you don't know what is the exact name of a command you're looking for please check out this command list: (TODO: WEBSITE URL HERE).
+
+*Made by: <@240150336294223872>
+For the list of all the commands and more visit: <https://github.com/TheSlipper/Kitsune>*

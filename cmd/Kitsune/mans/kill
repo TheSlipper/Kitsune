@@ -1,0 +1,11 @@
+**[ Kitsune 'kill' help page ]**
+
+***Syntax:** `kill [-eid 1]`*
+
+***Description:*** Kills an entity that matches the specified pattern.
+
+***Examples:***
+    Killing an event with Event ID *(EID)* '1': `kill -eid 1`
+
+  *Made by: <@240150336294223872>
+  For the list of all the commands and more visit: <https://github.com/TheSlipper/Kitsune>*

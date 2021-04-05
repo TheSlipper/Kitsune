@@ -1,0 +1,19 @@
+**[ Kitsune 'mngusr' help page ]**
+
+**Syntax:** *`mngusr <--action_name> "action data in parenthesis" <@TargetDiscordUser#1234> <@TargetDiscordUser2#4321> ...`*
+
+**Description:** Executes a given action on a group of specified (tagged) users. The available types of actions are - `kick`, `ban`, `assign-role`, `remove-role`, `chat-mute` and `voice-mute`. Each of the aforementioned actions may have its own unique action data. `kick` does not use any action data so you can omit it. `ban` uses the action data for specifying the ban reason (ban reason is optional - you can omit that when banning users). `assign-role` and `remove-role` use the action data for specifying the role name (obligatory). `chat-mute` and `voice-mute` use the action data for specifying the mute time (obligatory).
+
+**Examples:**
+Banning user *user#1234* on a server with a given reason: `mngusr --ban @user#1234 "Spamming NSFW content on a christian server"`
+
+Kicking user *user#1234* from a server: `mngusr --kick @user#1234`
+
+Assigning *someRole* role to *user#1234*: `mngusr --assign-role @user#1234 "someRole"`
+
+Chat muting user *user#1234*: `mngusr --chat-mute @user#1234 "2m30s"`
+
+Muting
+
+*Made by: <@240150336294223872>
+For the list of all the commands and more visit: <https://github.com/TheSlipper/Kitsune>*

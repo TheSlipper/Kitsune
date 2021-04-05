@@ -1,0 +1,8 @@
+**[ Kitsune 'honk' help page ]**
+
+**Syntax:** *`honk` -target-channel "channel name"*
+
+**Description:** Plays a recording of a honk in a specified voice channel. Used to check if the bot is capable of playing music and if its overloaded *(if it takes a while for the bot to respond it means that it is overloaded and it doesn't respond it might mean it's down)*.
+
+*Made by: <@240150336294223872>
+For the list of all the commands and more visit: <https://github.com/TheSlipper/Kitsune>*

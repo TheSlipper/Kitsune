@@ -1,0 +1,22 @@
+**[ Kitsune 'mngchan' help page ]**
+
+***Syntax:** `mngchan [-create-channel "channel-name" -type "text" | -remove-channel #tagged-channel | -whitelist-channel #tagged-channel | -blacklist-channel #tagged-channel]`*
+
+***Description:*** Executes an action on a group of channels with  specified names. The available types of actions are - `create-channel`,  `remove-channel`, `whitelist` and `blacklist`. Each of the aforementioned actions may have its own unique action data. `create-channel` and `delete-channel` take no action data which are specified above.
+
+***Examples:***
+    Creating a 'channel-name' text channel for a server: `mngchan -create-channel "channel-name" "text"`
+
+    Removing a 'channel-name' channel from a server: `mngchan -remove-channel #channel-name`
+
+    Turning off Kitsune commands in the general chat: `mngchan -blacklist #general`
+
+    Turning on Kitsune commands in the general chat: `$mngchan -whitelist #general`
+
+***WARNING:*** If there is a text channel named the same as a voice channel in a server, Kitsune will always target the text channel instead of the voice channel *(that's because discord doesn't allow tagging voice channels)*.
+
+***Protips:***
+  1. You can't tag voice channels with '#' operator on discord but Kitsune will try to find it by its name regardless of that.
+
+  *Made by: <@240150336294223872>
+  For the list of all the commands and more visit: <https://github.com/TheSlipper/Kitsune>*

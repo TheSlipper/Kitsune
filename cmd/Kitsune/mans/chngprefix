@@ -1,0 +1,11 @@
+**[ Kitsune 'chngprefix' help page ]**
+
+***Syntax:** `chngprefix "%"`*
+
+***Description:*** Changes the prefix of the command so that Kitsune doesn't read commands targeted at other bots and vice versa.
+
+***Examples:***
+    Changing the prefix from the default "$" to "%": `chngprefix "%"`
+
+  *Made by: <@240150336294223872>
+  For the list of all the commands and more visit: <https://github.com/TheSlipper/Kitsune>*

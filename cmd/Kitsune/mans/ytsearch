@@ -1,0 +1,18 @@
+**[ Kitsune 'alias' help page ]**
+
+**Syntax:** *`ytsearch --content-type type --tags "tags go here" --results 5`*
+
+**Description:** Searches youtube with the given tags and returns one of these content types: `video`, `channel` or `playlist`. The maximum result set is 5 results. Keep in mind that if your content type is not found in the specified result set u might not get any output. Tags must be put inside the parenthesis and if the tag has parenthesis then put a slash in front of it like that: `/"`.
+
+**Examples:**
+    Searching for a video: `ytsearch --content-type video --results 1 --tags "vinny why i hate geese"`
+
+    Searching for a channel: `ytsearch --content-type channel --results 1 --tags "vinesauce"`
+
+    Searching for a playlist: `ytsearch --content-type playlist --results 1 --tags "vinny vinesauce tomodachi playlist"`
+
+**Protip:**
+    You can use `alias` command to shorten your youtube video search to a command like this: `ytvidsearch "gotta go fast"`
+
+*Made by: <@240150336294223872>
+For the list of all the commands and more visit: <https://github.com/TheSlipper/Kitsune>*

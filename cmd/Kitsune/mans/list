@@ -1,0 +1,11 @@
+**[ Kitsune 'list' help page ]**
+
+***Syntax:** `list [-events] [-aliases] [-blacklists]`*
+
+***Description:*** Lists all the entities of a given type. Available types of entities are `events`, `aliases` and `blacklists`
+
+***Examples:***
+    Listing all the events registered in a server: `list -events`
+
+  *Made by: <@240150336294223872>
+  For the list of all the commands and more visit: <https://github.com/TheSlipper/Kitsune>*

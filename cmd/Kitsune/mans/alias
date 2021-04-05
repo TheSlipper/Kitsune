@@ -1,0 +1,15 @@
+**[ Kitsune 'alias' help page ]**
+
+**Syntax:** *`alias [-add-alias | -remove-alias] [-alias-name "name of alias"] [-alias-content "content of alias"]`*
+
+**Description:** Allows the users to manage aliases for long commands and flags. Aliases are keywords which are replaced with replacement content during the process of bot's command interpretation. 
+
+**Examples:**
+  Creating an alias: Let us consider a case where some command that we use very often and is too long and inconvenient to type *(e.g.: `mngusr --kick @someUser#1234`)* and we want to shorten it. In order to solve this problem we can take the first part of the command `mngusr --kick` and call it `yeet` so that each time we type `yeet @someUser#1234` kitsune will read the command as `mngusr --kick @someUser#1234` therefore yielding the same result. To achieve that we need to run the alias command with those arguments: `alias -add-alias -alias-name "yeet" -alias-content "mngusr --kick"` where `'yeet'` is the new alias and `"mngusr --kick"` is the replacement content.
+
+  Removing an alias: `alias -remove-alias -alias-name "yeet"`
+
+**WARNING:** Creating aliases with words/character sequences that are used in some command ***WILL ALWAYS*** cause undesirable results when calling the said command and may cause harm to your server. For example using `kick` instead of `yeet` in the example above would replace the word `kick` in the `mngusr --kick @someUser#1234` command call and change the command into this: `mngusr --mngusr --kick @someUser#1234`. Before running an `alias -add-alias` you should make sure you are not using words used in other commands or its arguments!
+
+*Made by: <@240150336294223872>
+For the list of all the commands and more visit: <https://github.com/TheSlipper/Kitsune>*

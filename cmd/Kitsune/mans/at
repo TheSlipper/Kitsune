@@ -1,0 +1,16 @@
+**[ Kitsune 'at' help page ]**
+
+***Syntax:** `at [time "+3h20m10s"] [-command "ping"] [-repeat "1h"]`*
+
+***Description:*** Schedules an execution of a command after a given time and repeats it if `--repeat` is used.
+
+***Examples:***
+    Running ping command after one minute: `at +1m "ping"`
+
+    Searching for an art on danbooru every minute after two minutes: `at -time "+2m" -command "$art -gallery danbooru -tags /"plugsuit/" -amount 1" -repeat "1m"`
+
+***Protips:***
+    When you are using the *"* character inside of the command block of `at` please use the character */* before it - otherwise it'll think that your command block ends earlier than it should *(the example above uses that approach)*
+
+  *Made by: <@240150336294223872>
+  For the list of all the commands and more visit: <https://github.com/TheSlipper/Kitsune>*
